@@ -1,0 +1,15 @@
+//3,99
+.Splash
+{
+    width:75rem;
+    height:50rem;
+    .logo{
+        background-image: url('../Assets/img/SellektywniLogoPNGTransparent.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:contain;
+        width:100%;
+        height:100%;
+        transform: scale(0);
+    }
+}

@@ -1,0 +1,31 @@
+// Z-INDEX
+//#root(:after 1) 0
+//App 2 - 99
+@import "base/_base.scss";
+
+#root {
+  z-index: 0;
+  position: relative;
+  background: $Color1;
+  overflow: hidden;
+  width:100vw;
+  height:100vh;
+  &::after {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    bottom:0;
+    right:0;
+    width: 100rem;
+    height: 100rem;
+    background: $Color2;
+    border-radius: 50%;
+    transform:translate(50%, 50%);
+  }
+}
+
+@import "_App.scss";
+//2-100
+.App {
+  z-index: 2;
+}
