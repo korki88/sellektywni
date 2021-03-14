@@ -370,4 +370,12 @@ a {
 .App {
   z-index: 2;
 }
+
+.gsapObject {
+  width: 50vh;
+  height: 50vh;
+  background: black;
+  color: white;
+  border: 2px solid red;
+}
 /*# sourceMappingURL=style.css.map */
