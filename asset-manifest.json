@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/sellektywni/index.html/static/js/main.4c408330.chunk.js",
-    "main.js.map": "/sellektywni/index.html/static/js/main.4c408330.chunk.js.map",
-    "runtime-main.js": "/sellektywni/index.html/static/js/runtime-main.bb01fbf2.js",
-    "runtime-main.js.map": "/sellektywni/index.html/static/js/runtime-main.bb01fbf2.js.map",
-    "static/js/2.82c6e5dd.chunk.js": "/sellektywni/index.html/static/js/2.82c6e5dd.chunk.js",
-    "static/js/2.82c6e5dd.chunk.js.map": "/sellektywni/index.html/static/js/2.82c6e5dd.chunk.js.map",
-    "index.html": "/sellektywni/index.html/index.html",
-    "static/js/2.82c6e5dd.chunk.js.LICENSE.txt": "/sellektywni/index.html/static/js/2.82c6e5dd.chunk.js.LICENSE.txt"
+    "main.js": "/sellektywni/static/js/main.4c408330.chunk.js",
+    "main.js.map": "/sellektywni/static/js/main.4c408330.chunk.js.map",
+    "runtime-main.js": "/sellektywni/static/js/runtime-main.87557acc.js",
+    "runtime-main.js.map": "/sellektywni/static/js/runtime-main.87557acc.js.map",
+    "static/js/2.82c6e5dd.chunk.js": "/sellektywni/static/js/2.82c6e5dd.chunk.js",
+    "static/js/2.82c6e5dd.chunk.js.map": "/sellektywni/static/js/2.82c6e5dd.chunk.js.map",
+    "index.html": "/sellektywni/index.html",
+    "static/js/2.82c6e5dd.chunk.js.LICENSE.txt": "/sellektywni/static/js/2.82c6e5dd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.bb01fbf2.js",
+    "static/js/runtime-main.87557acc.js",
     "static/js/2.82c6e5dd.chunk.js",
     "static/js/main.4c408330.chunk.js"
   ]
