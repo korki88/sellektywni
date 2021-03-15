@@ -93,6 +93,10 @@ button:focus {
   z-index: 3;
 }
 
+.ContentWrapper {
+  z-index: 2;
+}
+
 .Navigation {
   width: 100%;
   top: 0;
@@ -133,17 +137,24 @@ button:focus {
   position: absolute;
   top: 0;
   left: 50%;
-  transform: translate(-50%, -45%);
+  transform: translate(-50%, -40%);
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.SecondNav .links-wrapper {
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
-  overflow: hidden;
 }
 
 .SecondNav button {
   width: 40%;
   height: 50%;
   font-weight: bold;
-  padding: 2em 0;
+  padding: 1em 0;
   border: 1px solid red;
   clip-path: polygon(50% 100%, 0 0, 100% 0);
   display: flex;
@@ -157,8 +168,90 @@ button:focus {
   background: #51c5b4;
 }
 
+.SecondNav button:hover span {
+  transform: translateY(-50%);
+}
+
 .SecondNav {
   z-index: 11;
+}
+
+.ThirdNav {
+  width: 28rem;
+  height: 28rem;
+  background: #51c5b4;
+  border: 2px solid white;
+  border-radius: 50%;
+  font-size: 2rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.ThirdNav .links-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.ThirdNav button {
+  width: 40%;
+  height: 50%;
+  font-weight: bold;
+  padding: 1em 0;
+  border: 1px solid red;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  transform-origin: 50% 100%;
+}
+
+.ThirdNav button:hover {
+  background: #39aa9a;
+}
+
+.ThirdNav {
+  z-index: 21;
+}
+
+.BasketNav {
+  width: 14rem;
+  height: 14rem;
+  background: #39aa9a;
+  border: 2px solid white;
+  border-radius: 50%;
+  font-size: 2rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -35%);
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.BasketNav button {
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  padding: 1em 0;
+  border: 1px solid red;
+  justify-content: center;
+}
+
+.BasketNav button:hover {
+  background: #2c8477;
+}
+
+.BasketNav {
+  z-index: 21;
 }
 
 .Navigation {
