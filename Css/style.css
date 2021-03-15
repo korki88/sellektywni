@@ -47,7 +47,7 @@ button:focus {
 #root {
   z-index: 0;
   position: relative;
-  background: #eaf8f6;
+  background: rgba(215, 219, 172, 0.452);
   overflow: hidden;
   width: 100vw;
   height: 100vh;
@@ -61,7 +61,7 @@ button:focus {
   right: 0;
   width: 100rem;
   height: 100rem;
-  background: #c4ebe6;
+  background: rgba(198, 204, 136, 0.452);
   border-radius: 50%;
   transform: translate(50%, 50%);
 }
@@ -106,7 +106,7 @@ button:focus {
 .MainTabs {
   width: 75%;
   height: 7rem;
-  background: #c4ebe6;
+  background: rgba(198, 204, 136, 0.452);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -121,7 +121,7 @@ button:focus {
 }
 
 .MainTabs :hover {
-  background: #9edfd5;
+  background: rgba(181, 188, 101, 0.452);
 }
 
 .MainTabs {
@@ -131,7 +131,7 @@ button:focus {
 .SecondNav {
   width: 40rem;
   height: 40rem;
-  background: #9edfd5;
+  background: rgba(181, 188, 101, 0.452);
   border-radius: 50%;
   font-size: 1.6rem;
   position: absolute;
@@ -165,11 +165,11 @@ button:focus {
 }
 
 .SecondNav button:hover {
-  background: #51c5b4;
+  background: rgba(124, 130, 57, 0.452);
 }
 
 .SecondNav button:hover span {
-  transform: translateY(-50%);
+  transform: translateY(50%) !important;
 }
 
 .SecondNav {
@@ -179,7 +179,7 @@ button:focus {
 .ThirdNav {
   width: 28rem;
   height: 28rem;
-  background: #51c5b4;
+  background: rgba(124, 130, 57, 0.452);
   border: 2px solid white;
   border-radius: 50%;
   font-size: 2rem;
@@ -204,7 +204,6 @@ button:focus {
   height: 50%;
   font-weight: bold;
   padding: 1em 0;
-  border: 1px solid red;
   clip-path: polygon(50% 100%, 0 0, 100% 0);
   display: flex;
   align-items: flex-start;
@@ -214,7 +213,18 @@ button:focus {
 }
 
 .ThirdNav button:hover {
-  background: #39aa9a;
+  border: 2px solid rgba(255, 246, 118, 0.637);
+  background: rgba(255, 249, 160, 0.075);
+}
+
+.ThirdNav button:hover span {
+  transform: translateY(50%);
+  box-shadow: 0px -18px 10px -5px black;
+}
+
+.ThirdNav button:nth-child(1):hover span,
+.ThirdNav button:nth-child(2):hover span {
+  box-shadow: 0px 18px 10px -5px black;
 }
 
 .ThirdNav {
@@ -224,7 +234,7 @@ button:focus {
 .BasketNav {
   width: 14rem;
   height: 14rem;
-  background: #39aa9a;
+  background: rgba(90, 95, 41, 0.452);
   border: 2px solid white;
   border-radius: 50%;
   font-size: 2rem;
@@ -242,12 +252,11 @@ button:focus {
   height: 100%;
   font-weight: bold;
   padding: 1em 0;
-  border: 1px solid red;
   justify-content: center;
 }
 
 .BasketNav button:hover {
-  background: #2c8477;
+  background: rgba(56, 59, 26, 0.452);
 }
 
 .BasketNav {
