@@ -96,6 +96,7 @@ button:focus {
 .Navigation {
   width: 100%;
   top: 0;
+  position: relative;
 }
 
 .MainTabs {
@@ -108,11 +109,55 @@ button:focus {
   margin: 0 auto;
   border-radius: 0 0 5px 5px;
   font-size: 3rem;
-  padding: 0 1em;
+}
+
+.MainTabs button {
+  width: 100%;
+  height: 100%;
+}
+
+.MainTabs :hover {
+  background: #9edfd5;
 }
 
 .MainTabs {
   z-index: 5;
+}
+
+.SecondNav {
+  width: 50rem;
+  height: 50rem;
+  background: #9edfd5;
+  border-radius: 50%;
+  font-size: 2rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.SecondNav button {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 40%;
+  height: 50%;
+  padding: 2em 0;
+  border: 1px solid red;
+  transform-origin: 50% 100%;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+}
+
+.SecondNav button:hover {
+  background: #51c5b4;
+}
+
+.SecondNav {
+  z-index: 11;
 }
 
 .Navigation {
