@@ -125,11 +125,11 @@ button:focus {
 }
 
 .SecondNav {
-  width: 50rem;
-  height: 50rem;
+  width: 40rem;
+  height: 40rem;
   background: #9edfd5;
   border-radius: 50%;
-  font-size: 2rem;
+  font-size: 1.6rem;
   position: absolute;
   top: 0;
   left: 50%;
@@ -140,16 +140,17 @@ button:focus {
 }
 
 .SecondNav button {
+  width: 40%;
+  height: 50%;
+  font-weight: bold;
+  padding: 2em 0;
+  border: 1px solid red;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
   display: flex;
   align-items: flex-start;
   justify-content: center;
   position: absolute;
-  width: 40%;
-  height: 50%;
-  padding: 2em 0;
-  border: 1px solid red;
   transform-origin: 50% 100%;
-  clip-path: polygon(50% 100%, 0 0, 100% 0);
 }
 
 .SecondNav button:hover {
