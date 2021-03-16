@@ -48,7 +48,7 @@ button:focus {
 #root {
   z-index: 0;
   position: relative;
-  background: rgba(215, 219, 172, 0.452);
+  background: rgba(215, 226, 188, 0.644);
   overflow: hidden;
   width: 100vw;
   height: 100vh;
@@ -62,7 +62,7 @@ button:focus {
   right: 0;
   width: 100rem;
   height: 100rem;
-  background: rgba(198, 204, 136, 0.452);
+  background: rgba(194, 211, 152, 0.644);
   border-radius: 50%;
   transform: translate(50%, 50%);
 }
@@ -120,7 +120,7 @@ button:focus {
 .MainTabs {
   width: 75%;
   height: 7rem;
-  background: rgba(198, 204, 136, 0.452);
+  background: rgba(194, 211, 152, 0.644);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -135,7 +135,7 @@ button:focus {
 }
 
 .MainTabs :hover {
-  background: rgba(181, 188, 101, 0.452);
+  background: rgba(173, 195, 117, 0.644);
 }
 
 .MainTabs {
@@ -150,7 +150,7 @@ button:focus {
   position: absolute;
   top: 0;
   left: 50%;
-  transform: translate(-50%, -45%);
+  transform: translate(-50%, -40%);
   display: grid;
   place-items: center;
   overflow: hidden;
@@ -166,7 +166,7 @@ button:focus {
 .SecondNav button {
   width: 40%;
   height: 50%;
-  background: rgba(181, 188, 101, 0.452);
+  background: rgba(173, 195, 117, 0.644);
   font-weight: bold;
   padding: 1em 0;
   clip-path: polygon(50% 100%, 0 0, 100% 0);
@@ -178,7 +178,7 @@ button:focus {
 }
 
 .SecondNav button:hover {
-  background: rgba(124, 130, 57, 0.452);
+  background: rgba(123, 147, 63, 0.644);
 }
 
 .SecondNav {
@@ -188,13 +188,13 @@ button:focus {
 .ThirdNav {
   width: 28rem;
   height: 28rem;
-  background: rgba(124, 130, 57, 0.2);
+  background: rgba(123, 147, 63, 0.2);
   border-radius: 50%;
   font-size: 2rem;
   position: absolute;
   top: 0;
   left: 50%;
-  transform: translate(-50%, -40%);
+  transform: translate(-50%, -35%);
   display: grid;
   place-items: center;
   overflow: hidden;
@@ -251,13 +251,13 @@ button:focus {
 .BasketNav {
   width: 14rem;
   height: 14rem;
-  background: rgba(90, 95, 41, 0.2);
+  background: rgba(93, 111, 48, 0.2);
   border-radius: 50%;
-  font-size: 2rem;
+  font-size: 5rem;
   position: absolute;
   top: 0;
   left: 50%;
-  transform: translate(-50%, -35%);
+  transform: translate(-50%, -25%);
   display: grid;
   place-items: center;
   overflow: hidden;
@@ -272,7 +272,7 @@ button:focus {
 }
 
 .BasketNav button:hover {
-  background: rgba(56, 59, 26, 0.452);
+  background: rgba(63, 75, 33, 0.644);
 }
 
 .BasketNav {
