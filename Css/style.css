@@ -94,8 +94,38 @@ button:focus {
   z-index: 3;
 }
 
+.ProductsList {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 2rem;
+}
+
+.ProductsList .list {
+  width: 100%;
+  height: 80%;
+}
+
+.ProductsList .list li {
+  background: rgba(173, 195, 117, 0.644);
+  padding: 1rem;
+  display: inline-flex;
+  flex-direction: column;
+  text-align: right;
+  gap: .5rem;
+}
+
+.ProductsList .list li img {
+  width: 20rem;
+}
+
+.ProductsList {
+  z-index: 5;
+}
+
 .ContentWrapper {
-  z-index: 2;
+  z-index: 4;
 }
 
 .Navigation {
@@ -135,7 +165,7 @@ button:focus {
 }
 
 .MainTabs {
-  z-index: 5;
+  z-index: 15;
 }
 
 .SecondNav {
@@ -178,7 +208,7 @@ button:focus {
 }
 
 .SecondNav {
-  z-index: 11;
+  z-index: 21;
 }
 
 .ThirdNav {
@@ -241,7 +271,7 @@ button:focus {
 }
 
 .ThirdNav {
-  z-index: 21;
+  z-index: 31;
 }
 
 .BasketNav {
@@ -272,26 +302,27 @@ button:focus {
   background: rgba(255, 249, 160, 0.075);
 }
 
-.BasketNav button:hover span {
-  box-shadow: 0px -18px 10px -5px black;
+.BasketNav button:hover span i {
+  box-shadow: 0px 32px 10px -4px rgba(0, 0, 0, 0.2);
+  position: relative;
   animation: float 1s ease-in-out infinite alternate;
 }
 
 @keyframes float {
   0% {
-    transform: translateY(50%) scale(1);
+    transform: translateY(0%) scale(1);
   }
   100% {
-    transform: translateY(30%) scale(1.1);
+    transform: translateY(10%) scale(1.1);
   }
 }
 
 .BasketNav {
-  z-index: 21;
+  z-index: 41;
 }
 
 .Navigation {
-  z-index: 4;
+  z-index: 14;
 }
 
 .wrapper {
