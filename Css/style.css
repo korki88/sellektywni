@@ -131,13 +131,12 @@ button:focus {
 .SecondNav {
   width: 40rem;
   height: 40rem;
-  background: rgba(181, 188, 101, 0.452);
   border-radius: 50%;
   font-size: 1.6rem;
   position: absolute;
   top: 0;
   left: 50%;
-  transform: translate(-50%, -40%);
+  transform: translate(-50%, -45%);
   display: grid;
   place-items: center;
   overflow: hidden;
@@ -153,9 +152,9 @@ button:focus {
 .SecondNav button {
   width: 40%;
   height: 50%;
+  background: rgba(181, 188, 101, 0.452);
   font-weight: bold;
   padding: 1em 0;
-  border: 1px solid red;
   clip-path: polygon(50% 100%, 0 0, 100% 0);
   display: flex;
   align-items: flex-start;
@@ -166,10 +165,6 @@ button:focus {
 
 .SecondNav button:hover {
   background: rgba(124, 130, 57, 0.452);
-}
-
-.SecondNav button:hover span {
-  transform: translateY(50%) !important;
 }
 
 .SecondNav {
