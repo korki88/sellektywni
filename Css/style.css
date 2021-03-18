@@ -35,7 +35,7 @@ button:focus {
 
 @media (orientation: portrait) {
   :root {
-    font-size: 1.75vw;
+    font-size: 1vh;
   }
 }
 
@@ -135,9 +135,9 @@ button:focus {
   height: 80%;
   display: flex;
   flex-wrap: wrap;
-  flex-shrink: 0;
+  flex-shrink: 1;
   justify-content: center;
-  gap: 4rem;
+  gap: 2rem;
   padding: 4rem;
   overflow: scroll;
   overflow-x: hidden;
@@ -148,10 +148,8 @@ button:focus {
   backdrop-filter: blur(2px);
   width: 45rem;
   height: 60rem;
-  min-width: 30rem;
-  min-height: 45rem;
-  max-width: 60rem;
-  max-height: 80rem;
+  max-width: 45rem;
+  max-height: 60rem;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
