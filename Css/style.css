@@ -220,10 +220,47 @@ button:focus {
 }
 
 .ProductDetails .item {
+  gap: .5rem;
+  line-height: 2;
+  padding: 0;
+  margin: 0;
   justify-content: start;
+  align-items: flex-start;
+  flex-direction: row;
   height: 70rem;
+  width: 90rem;
   max-height: unset;
   min-height: unset;
+  max-width: unset;
+  min-width: unset;
+}
+
+.ProductDetails .item .thumbnails {
+  padding: 0;
+  margin: 0;
+  width: 9rem;
+}
+
+.ProductDetails .item .thumbnails img {
+  width: 9rem;
+  height: 12rem;
+  padding: 0;
+  margin-top: 0px;
+}
+
+.ProductDetails .item .thumbnails img:not(:first-child) {
+  margin-top: -2px;
+}
+
+.ProductDetails .item .imgContainer {
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.ProductDetails .item .imgContainer img {
+  height: 60rem;
 }
 
 .ProductsList {
