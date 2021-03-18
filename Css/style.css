@@ -48,7 +48,6 @@ button:focus {
 #root {
   z-index: 0;
   position: relative;
-  background: rgba(215, 226, 188, 0.884);
   overflow: hidden;
   width: 100vw;
   height: 100vh;
@@ -62,7 +61,7 @@ button:focus {
   right: 0;
   width: 100rem;
   height: 100rem;
-  background: rgba(194, 211, 152, 0.884);
+  background: #f2d61d;
   border-radius: 50%;
   transform: translate(50%, 50%);
 }
@@ -127,6 +126,7 @@ button:focus {
   align-items: flex-end;
   padding-top: 2rem;
   padding-bottom: 7rem;
+  padding-right: 25rem;
   overflow: hidden;
 }
 
@@ -140,17 +140,44 @@ button:focus {
   padding: 4rem;
   overflow: scroll;
   overflow-x: hidden;
-  overflow: -moz-scrollbars-none;
-  -ms-overflow-style: none;
 }
 
 .ProductsList .list::-webkit-scrollbar {
-  width: 0 !important;
+  position: relative;
+  background: none;
+  max-width: 50px;
+  overflow: visible;
+}
+
+.ProductsList .list::-webkit-scrollbar::before {
+  width: 2px;
+  height: 100%;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 2px solid red;
+}
+
+.ProductsList .list::-webkit-scrollbar-button {
+  display: none;
+}
+
+.ProductsList .list::-webkit-scrollbar-track {
+  overflow: visible !important;
+  max-width: 2px;
+}
+
+.ProductsList .list::-webkit-scrollbar-thumb {
+  background: #706206;
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
 }
 
 .ProductsList .list li {
   font-size: 3rem;
-  background: rgba(173, 195, 117, 0.4);
+  background: rgba(208, 183, 12, 0.4);
   backdrop-filter: blur(15px);
   box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
   padding: 1rem;
@@ -158,8 +185,8 @@ button:focus {
   flex-direction: column;
   text-align: right;
   gap: 0.5rem;
-  width: 30rem;
-  height: 30rem;
+  width: 35rem;
+  height: 35rem;
 }
 
 .ProductsList .list li img {
@@ -196,7 +223,7 @@ button:focus {
 }
 
 .MainTabs {
-  background: rgba(194, 211, 152, 0.884);
+  background: #f2d61d;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -212,7 +239,7 @@ button:focus {
 }
 
 .MainTabs :hover {
-  background: rgba(173, 195, 117, 0.884);
+  background: #d0b70c;
 }
 
 .MainTabs {
@@ -243,7 +270,7 @@ button:focus {
 .SecondNav button {
   width: 40%;
   height: 50%;
-  background: rgba(173, 195, 117, 0.884);
+  background: #d0b70c;
   font-weight: bold;
   padding: 1em 0;
   clip-path: polygon(50% 100%, 0 0, 100% 0);
@@ -255,7 +282,7 @@ button:focus {
 }
 
 .SecondNav button:hover {
-  background: rgba(123, 147, 63, 0.884);
+  background: #706206;
 }
 
 .SecondNav {
@@ -265,7 +292,7 @@ button:focus {
 .ThirdNav {
   width: 28rem;
   height: 28rem;
-  background: rgba(123, 147, 63, 0.2);
+  background: rgba(112, 98, 6, 0.2);
   border-radius: 50%;
   font-size: 2rem;
   position: absolute;
@@ -327,7 +354,7 @@ button:focus {
 .BasketNav {
   width: 14rem;
   height: 14rem;
-  background: rgba(93, 111, 48, 0.2);
+  background: rgba(63, 56, 4, 0.2);
   border-radius: 50%;
   font-size: 5rem;
   position: absolute;
@@ -443,6 +470,25 @@ button:focus {
   height: 5rem;
   background: white;
   border-radius: 50%;
+}
+
+.videoBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.videoBg video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .App {
