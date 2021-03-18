@@ -51,6 +51,7 @@ button:focus {
   overflow: hidden;
   width: 100vw;
   height: 100vh;
+  background: rgba(183, 204, 155, 0.74);
 }
 
 #root::after {
@@ -61,7 +62,7 @@ button:focus {
   right: 0;
   width: 100rem;
   height: 100rem;
-  background: #f2d61d;
+  background: rgba(159, 187, 121, 0.74);
   border-radius: 50%;
   transform: translate(50%, 50%);
 }
@@ -126,7 +127,6 @@ button:focus {
   align-items: flex-end;
   padding-top: 2rem;
   padding-bottom: 7rem;
-  padding-right: 25rem;
   overflow: hidden;
 }
 
@@ -169,7 +169,7 @@ button:focus {
 }
 
 .ProductsList .list::-webkit-scrollbar-thumb {
-  background: #706206;
+  background: rgba(81, 103, 52, 0.74);
   max-width: 50px;
   max-height: 50px;
   border-radius: 50%;
@@ -177,7 +177,7 @@ button:focus {
 
 .ProductsList .list li {
   font-size: 3rem;
-  background: rgba(208, 183, 12, 0.4);
+  background: rgba(134, 170, 87, 0.4);
   backdrop-filter: blur(15px);
   box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
   padding: 1rem;
@@ -223,7 +223,7 @@ button:focus {
 }
 
 .MainTabs {
-  background: #f2d61d;
+  background: rgba(159, 187, 121, 0.74);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -239,7 +239,7 @@ button:focus {
 }
 
 .MainTabs :hover {
-  background: #d0b70c;
+  background: rgba(134, 170, 87, 0.74);
 }
 
 .MainTabs {
@@ -270,7 +270,7 @@ button:focus {
 .SecondNav button {
   width: 40%;
   height: 50%;
-  background: #d0b70c;
+  background: rgba(134, 170, 87, 0.74);
   font-weight: bold;
   padding: 1em 0;
   clip-path: polygon(50% 100%, 0 0, 100% 0);
@@ -282,7 +282,7 @@ button:focus {
 }
 
 .SecondNav button:hover {
-  background: #706206;
+  background: rgba(81, 103, 52, 0.74);
 }
 
 .SecondNav {
@@ -292,7 +292,7 @@ button:focus {
 .ThirdNav {
   width: 28rem;
   height: 28rem;
-  background: rgba(112, 98, 6, 0.2);
+  background: rgba(81, 103, 52, 0.2);
   border-radius: 50%;
   font-size: 2rem;
   position: absolute;
@@ -354,7 +354,7 @@ button:focus {
 .BasketNav {
   width: 14rem;
   height: 14rem;
-  background: rgba(63, 56, 4, 0.2);
+  background: rgba(54, 69, 35, 0.2);
   border-radius: 50%;
   font-size: 5rem;
   position: absolute;
