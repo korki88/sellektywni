@@ -62,7 +62,7 @@ button:focus {
   right: 0;
   width: 100rem;
   height: 100rem;
-  background: rgba(159, 187, 121, 0.74);
+  background: rgba(167, 171, 243, 0.623);
   border-radius: 50%;
   transform: translate(50%, 50%);
 }
@@ -170,7 +170,7 @@ button:focus {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: rgba(183, 204, 155, 0.74);
+  background: rgba(212, 214, 249, 0.623);
 }
 
 .item .titleContainer .title {
@@ -214,7 +214,16 @@ button:focus {
   transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
-  z-index: 99 !important;
+  display: grid;
+  place-items: center;
+  padding-top: 8rem;
+}
+
+.ProductDetails .item {
+  justify-content: start;
+  height: 70rem;
+  max-height: unset;
+  min-height: unset;
 }
 
 .ProductsList {
@@ -247,7 +256,7 @@ button:focus {
 }
 
 .MainTabs {
-  background: rgba(159, 187, 121, 0.74);
+  background: rgba(167, 171, 243, 0.623);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -263,7 +272,7 @@ button:focus {
 }
 
 .MainTabs :hover {
-  background: rgba(134, 170, 87, 0.74);
+  background: rgba(122, 129, 237, 0.623);
 }
 
 .MainTabs {
@@ -294,7 +303,7 @@ button:focus {
 .SecondNav button {
   width: 40%;
   height: 50%;
-  background: rgba(134, 170, 87, 0.74);
+  background: rgba(122, 129, 237, 0.623);
   font-weight: bold;
   padding: 1em 0;
   clip-path: polygon(50% 100%, 0 0, 100% 0);
@@ -306,7 +315,7 @@ button:focus {
 }
 
 .SecondNav button:hover {
-  background: rgba(81, 103, 52, 0.74);
+  background: rgba(33, 43, 224, 0.623);
 }
 
 .SecondNav {
@@ -316,7 +325,7 @@ button:focus {
 .ThirdNav {
   width: 28rem;
   height: 28rem;
-  background: rgba(81, 103, 52, 0.2);
+  background: rgba(33, 43, 224, 0.2);
   border-radius: 50%;
   font-size: 2rem;
   position: absolute;
@@ -378,7 +387,7 @@ button:focus {
 .BasketNav {
   width: 14rem;
   height: 14rem;
-  background: rgba(54, 69, 35, 0.2);
+  background: rgba(25, 34, 181, 0.2);
   border-radius: 50%;
   font-size: 5rem;
   position: absolute;
