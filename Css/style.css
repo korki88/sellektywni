@@ -35,13 +35,13 @@ button:focus {
 
 @media (orientation: portrait) {
   :root {
-    font-size: 1vh;
+    font-size: 1vw;
   }
 }
 
 @media (orientation: landscape) {
   :root {
-    font-size: 1vw;
+    font-size: 1vh;
   }
 }
 
