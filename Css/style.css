@@ -51,7 +51,7 @@ button:focus {
   overflow: hidden;
   width: 100vw;
   height: 100vh;
-  background: rgba(183, 204, 155, 0.74);
+  background: white;
 }
 
 #root::after {
@@ -141,42 +141,9 @@ button:focus {
   overflow-x: hidden;
 }
 
-.ProductsList .list::-webkit-scrollbar {
-  position: relative;
-  background: none;
-  max-width: 50px;
-  overflow: visible;
-}
-
-.ProductsList .list::-webkit-scrollbar::before {
-  width: 2px;
-  height: 100%;
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  border: 2px solid red;
-}
-
-.ProductsList .list::-webkit-scrollbar-button {
-  display: none;
-}
-
-.ProductsList .list::-webkit-scrollbar-track {
-  overflow: visible !important;
-  max-width: 2px;
-}
-
-.ProductsList .list::-webkit-scrollbar-thumb {
-  background: rgba(81, 103, 52, 0.74);
-  max-width: 50px;
-  max-height: 50px;
-  border-radius: 50%;
-}
-
 .ProductsList .list li {
   font-size: 3rem;
-  background: rgba(134, 170, 87, 0.4);
+  background: white;
   backdrop-filter: blur(15px);
   box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
   padding: 1rem;
@@ -189,7 +156,9 @@ button:focus {
 }
 
 .ProductsList .list li img {
-  width: 20rem;
+  margin: 0 auto;
+  width: 30rem;
+  height: 30rem;
 }
 
 .ProductsList {
