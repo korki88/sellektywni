@@ -124,13 +124,14 @@ button:focus {
   height: 100%;
   display: flex;
   align-items: flex-end;
+  justify-content: center;
   padding-top: 2rem;
   padding-bottom: 7rem;
   overflow: hidden;
 }
 
 .ProductsList .list {
-  width: 100%;
+  width: 76%;
   height: 80%;
   display: flex;
   flex-wrap: wrap;
@@ -139,26 +140,63 @@ button:focus {
   padding: 4rem;
   overflow: scroll;
   overflow-x: hidden;
+  list-style: none;
 }
 
 .ProductsList .list li {
-  font-size: 3rem;
-  background: white;
-  backdrop-filter: blur(15px);
-  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
-  padding: 1rem;
-  display: inline-flex;
+  width: 40rem;
+  height: 60rem;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
   flex-direction: column;
-  text-align: right;
-  gap: 0.5rem;
-  width: 35rem;
-  height: 35rem;
+  justify-content: center;
+  gap: 2rem;
 }
 
-.ProductsList .list li img {
-  margin: 0 auto;
+.ProductsList .list li .titleContainer {
+  display: inline-flex;
+  align-items: center;
+  width: 30rem;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.ProductsList .list li .titleContainer .colorDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(183, 204, 155, 0.74);
+}
+
+.ProductsList .list li .titleContainer .title {
+  font-weight: normal;
+  font-size: 3rem;
+}
+
+.ProductsList .list li .imgContainer {
   width: 30rem;
   height: 30rem;
+  background-image: url("../Assets/img/buty/5.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.ProductsList .list li .descContainer {
+  font-size: 2rem;
+  width: 30rem;
+}
+
+.ProductsList .list li .descContainer .buttonsContainer {
+  padding: 1rem;
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ProductsList .list li .descContainer .desc {
+  padding: 1rem;
 }
 
 .ProductsList {
